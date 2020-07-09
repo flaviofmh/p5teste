@@ -1,6 +1,6 @@
 class Star {
 
-    Star() {
+    constructor() {
         this.x = random(0, width);
         this.y = random(0, height);
         this.z = random(0, width);
